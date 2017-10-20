@@ -10,4 +10,10 @@ $(function(){
 	$("#jnBrandList").delegate(".imageMask", "hover", function(){
 		$(this).toggleClass("imageOver");
 	});
+	
+	/*
+	$("#jnBrandList").find(".imageMask").live("hover", function(){
+		$(this).toggleClass("imageOver");
+	});
+	*/
 })

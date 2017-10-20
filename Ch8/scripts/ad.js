@@ -19,7 +19,7 @@ $(function(){
 			    showImg(index);
 				index++;
 				if(index==len){index=0;}
-			} , 3000);
+			} , 5000);
 	}).trigger("mouseleave");
 })
 //显示不同的幻灯片

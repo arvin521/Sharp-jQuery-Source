@@ -1,4 +1,4 @@
-﻿//导航效果（兼容IE6）
+﻿//导航效果
 $(function(){
    $("#nav li").hover(function(){
 		$(this).find(".jnNav").show();
